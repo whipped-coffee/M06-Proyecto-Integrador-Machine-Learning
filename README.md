@@ -46,11 +46,11 @@ Realizaremos una _`búsqueda exhaustiva`_ para encontrar los mejores hiperparám
 ## **Relación exactitud/profundidad**
 
 ![image](_src/assets/tree_depth_graphic.png)
-`Exactitud en base a la profundidad del árbol de decisión en el modelo`
+_`Exactitud en base a la profundidad del árbol de decisión en el modelo`_
 
 ## **Matriz de confusión**
 
 ![image](_src/assets/test_matrix_confusion.png)
 
-`Matriz de confusión con el set de testeo en KNeighborsClassifier`
+_`Matriz de confusión con el set de testeo en KNeighborsClassifier`_
   
