@@ -36,6 +36,7 @@ En base a esto, realizamos pruebas con distintos modelos que no tuvieron un buen
 
 
 ![image](/_src/assets/testing_matrix_confusion.png)
+
 Matriz de confusión con el set de testeo en KNeighborsClassifier
   
 
