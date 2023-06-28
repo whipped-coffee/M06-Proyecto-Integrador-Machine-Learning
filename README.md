@@ -14,4 +14,37 @@ Para ello, nuestro departamento de datos ha recopilado `Antecedentes del pacient
 
 ![image](https://user-images.githubusercontent.com/118769777/220240501-8c21461d-2de5-495b-954e-10fb9bf38014.png)
 
-El departamente de datos advierte que hay algunos problemas de calidad de datos en la información suministrada por lo que el primer reto del equipo es realizar un análisis exploratorio de los datos con el fin de transformar y preparar las datos adecuadamente. 
+El departamente de datos advierte que hay algunos problemas de calidad de datos en la información suministrada por lo que el primer reto del equipo es realizar un análisis exploratorio de los datos con el fin de transformar y preparar las datos adecuadamente.
+
+
+## **Interpretación de resultado y conclusiones**
+
+A través del análisis realizado, en función a la problemática planteada, encontramos que aquellas características más influyentes en la hospitalización son las siguientes:
+
+![image](/_src/assets/corr.png)
+
+
+- FIEBRE
+- ITU 
+- SEPSIS, la cuál fue definida previamente por el equipo
+  
+  
+## **Modelos**
+
+
+En base a esto, realizamos pruebas con distintos modelos que no tuvieron un buen funcionamiento como KNeighborsClassifier y Scalable Linear Support Vector Machine.
+
+
+![image](/_src/assets/testing_matrix_confusion.png)
+Matriz de confusión con el set de testeo en KNeighborsClassifier
+  
+
+
+  
+Los mejores resultados obtenidos pertenecen al DecisionTreeClassifier. Se evaluaron los mejores párametros con el uso de distintas métricas, obteniendo la simulación de modelo que se presentaría a producción.
+  
+
+
+  
+![image](/_src/assets/tree_depth_graphic.png)
+Exactitud en base a la profundidad del árbol de decisión en el modelo
