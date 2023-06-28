@@ -46,7 +46,7 @@ Realizaremos una _`búsqueda exhaustiva`_ para encontrar los mejores hiperparám
 ## **Relación exactitud/profundidad**
 
 ![image](_src/assets/tree_depth_graphic.png)
-Exactitud en base a la profundidad del árbol de decisión en el modelo
+`Exactitud en base a la profundidad del árbol de decisión en el modelo`
 
 ## **Matriz de confusión**
 
