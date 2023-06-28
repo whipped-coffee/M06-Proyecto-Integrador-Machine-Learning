@@ -52,5 +52,5 @@ Exactitud en base a la profundidad del árbol de decisión en el modelo
 
 ![image](_src/assets/test_matrix_confusion.png)
 
-Matriz de confusión con el set de testeo en KNeighborsClassifier
+`Matriz de confusión con el set de testeo en KNeighborsClassifier`
   
